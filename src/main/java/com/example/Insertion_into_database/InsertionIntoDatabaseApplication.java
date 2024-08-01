@@ -10,4 +10,5 @@ public class InsertionIntoDatabaseApplication {
 		SpringApplication.run(InsertionIntoDatabaseApplication.class, args);
 	}
 
+
 }

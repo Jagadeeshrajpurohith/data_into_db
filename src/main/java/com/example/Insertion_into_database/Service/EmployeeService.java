@@ -19,8 +19,8 @@ import java.util.List;
             return empRepository.findAll();
         }
 
-        public Employee saveEmployee(Employee employee) {
-            return empRepository.save(employee);
+        public void addEmployee(Employee employee) {
+             empRepository.save(employee);
 
         }
     }
